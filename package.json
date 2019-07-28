@@ -1,0 +1,21 @@
+{
+  "name": "array",
+  "version": "1.0.0",
+  "description": "Array - Personalized Development",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Ali EL-Shayeb",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
