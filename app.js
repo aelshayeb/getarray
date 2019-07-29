@@ -31,6 +31,11 @@ app.get('/fail', function(req, res) {
     res.render('pages/fail');
 });
 
+// payments from Stripe API
+app.post('pages/charge', function(req,res) {
+
+});
+
 
 // Signup Route
 app.post('/signup', (req, res) => {
@@ -82,6 +87,6 @@ app.post('/signup', (req, res) => {
 });
 
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, console.log(`Server started on ${PORT}`));
