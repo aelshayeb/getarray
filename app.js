@@ -22,7 +22,9 @@ app.get('/', function(req, res) {
 });
 // success page 
 app.get('/success', function(req, res) {
-    res.render('pages/success');
+    res.render('pages/success', {
+        
+    });
 });
 // fail page 
 app.get('/fail', function(req, res) {
